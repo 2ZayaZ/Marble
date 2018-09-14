@@ -1,0 +1,68 @@
+footer {
+  background: #1e1e1e;
+  padding: 35px 0;
+  color: #cacaca;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    flex-wrap: wrap;
+    // justify-content: space-between;
+  }
+  .footer-items {
+    width: 25%;
+    padding-bottom: 20px;
+    position: relative;
+    border-bottom: 2px solid #6c6c6c;
+    margin-bottom: 20px;
+    .adress::before {
+      position: absolute;
+      content: "";
+      width: 15px;
+      height: 15px;
+      background: url("../images/address.png") no-repeat;
+      left: 10px;
+      // top: 143px;
+    }
+    .phone::before {
+      position: absolute;
+      content: "";
+      width: 15px;
+      height: 15px;
+      background: url("../images/phone.png") no-repeat;
+      left: 10px;
+      // top: 187px;
+    }
+    .mail:before {
+      position: absolute;
+      content: "";
+      width: 15px;
+      height: 15px;
+      background: url("../images/mail.png") no-repeat;
+      left: 10px;
+      // top: 213px;
+    }
+
+    .twitter-1::before {
+      position: absolute;
+      content: "";
+      width: 15px;
+      height: 15px;
+      background: url("../images/twitter.png") no-repeat;
+      left: 10px;
+      // bottom: -10px;
+    }
+  }
+  ul {
+    list-style: none;
+  }
+  h4 {
+    color: #6c6c6c;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+}

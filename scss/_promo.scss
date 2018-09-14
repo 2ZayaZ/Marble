@@ -1,0 +1,43 @@
+.promo {
+  padding: 190px 0 210px 0;
+  background-color: #313942;
+  background-image: url(../images/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  & div {
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #3f8dbf;
+    margin-top: 30px;
+    & a,
+    a:visited {
+      display: inline-block;
+      font-family: Roboto;
+      color: rgb(216, 213, 213);
+      font-size: 12px;
+      line-height: 45px;
+      text-decoration: none;
+      text-transform: uppercase;
+      user-select: none;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+  & p {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+
+    &.promo-p2 {
+      font-size: 22px;
+      color: #a8a8a8;
+    }
+  }
+}

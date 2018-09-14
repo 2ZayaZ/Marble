@@ -1,0 +1,52 @@
+@import "header";
+@import "promo";
+@import "features";
+@import "works";
+@import "footer";
+
+@media screen and (max-width: 840px) {
+  nav {
+    flex-direction: column;
+  }
+  nav > a {
+    padding: 10px 0;
+    margin: 0;
+    text-align: center;
+  }
+  nav > a:first-child {
+    margin-top: 25px;
+  }
+  .promo {
+    margin-top: 250px;
+  }
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  height: 100%;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-style: 14px;
+  color: #4e4e4e;
+}
+.container {
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.comma {
+  background-color: #efefef;
+  padding: 5px 215px 45px 215px;
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 40px;
+  color: #a1a1a1;
+
+  & span {
+    font-family: ArialRoundedMTBold;
+    font-size: 100px;
+    color: #dcdcdc;
+  }
+}
